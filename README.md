@@ -1,5 +1,4 @@
 # Simple-Remote-Sensing-Change-Detection-Framework
-A simplified implementation of remote sensing change detection based on pytorch
 
 This project is a simplified implementation of remote sensing change detection based on pytorch, I hope it can help those who are beginners in change detection domain implementing their ideas quickly, without concerning other things. It has the following features:
 
