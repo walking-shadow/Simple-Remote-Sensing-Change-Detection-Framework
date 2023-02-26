@@ -12,10 +12,9 @@ This project is a simplified implementation of remote sensing change detection b
 - Code and its logic are very simple, easy to understand.
 - Change detection model is a simple twin network, which served as an example, and loss function is just addition of BCELoss and DiceLoss.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-入门遥感深度学习变化检测研究的时候，看了很多变化检测论文的代码，发现代码开源的论文里面，一些很厉害的论文由于各种原因一般只会开放自己的模型代码，而其他比较水的论文代码基本逻辑很乱，也没什么注释，并且也基本不重视内容的记录。
-
-现在做的研究告一段落，因此把自己的代码整理了一些，做出了一个深度学习变化检测的代码框架，之后有什么关于变化检测模型的想法能够在框架里面快速的实现，不用在各种其他的代码里面摸索来摸索去，代码主要包含以下特点：
+此项目是一个遥感变化检测的极简代码框架，希望能够帮助到刚进入变化检测领域的人快速实现自己的想法，代码主要包含以下特点：
 
 - 使用albumentations库进行丰富的数据增强
 - 使用wandb记录下每次实验的超参数、训练和验证指标、训练和验证结果图片，保证每次实验过后都可以详细的分析原因，并且也不用额外在其他地方记录超参数，调参的时候也更方便
